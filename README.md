@@ -12,6 +12,9 @@ Saját túlélővilág a társaságnak. Minecraft **Java Edition 26.1.2**, **Fab
 | Nem indul vagy nem enged be | [Hibaelhárítás](docs/HIBAK.md) |
 | Karbantartói teendők | [Üzemeltetés](docs/KARBANTARTAS.md) |
 
+## Modok letöltése 
+A szükséges modokat a [mods mappában](mods/) találjátok.
+
 ## Csatlakozás
 
 A szerver címét a szervezőtől kérd el; itt még nincs közzétéve. A Minecraftban: **Többjátékos → Szerver hozzáadása**.
