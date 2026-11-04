@@ -2,39 +2,39 @@
 
 [← Kezdőlap](../README.md)
 
-## 1. Minecraft 26.1.2
-
-1. Nyisd meg a hivatalos Minecraft Launchert, és válaszd a **Java Editiont**.
-2. **Telepítések → Új telepítés → release 26.1.2**.
-3. Indítsd el egyszer, várd meg a főmenüt, majd zárd be a játékot és a Launchert.
-
-## 2. Fabric
+## 1. Fabric
 
 1. Töltsd le a **Download for Windows** telepítőt a [Fabric hivatalos oldaláról](https://fabricmc.net/use/installer/).
 2. A telepítőben: **Client**, Minecraft **26.1.2**, Loader **0.20.1**, **Create profile** bepipálva.
-3. A telepítési hely a Launcher Minecraft-mappája legyen, általában `%APPDATA%\.minecraft`. Egyéni telepítésnél ellenőrizd a saját útvonaladat.
-4. Kattints az **Install** gombra, majd nyisd meg a Launchert.
+3. A telepítési hely a Launcher Minecraft-mappája legyen.  Egyéni telepítésnél ellenőrizd a saját útvonaladat. Általában valami ilyesmi: `C:\Users\WINDOWS\AppData\Roaming\.minecraft`
+4. Kattints az **Install** gombra.
 
-## 3. Külön mappa a Fabricnak
+## 2. Külön mappa a Fabricnak
 
-Így a régi Forge-modok nem keverednek az újakkal.
+Így a régi modok nem keverednek az újakkal.
 
-1. **Telepítések → fabric-loader-0.20.1-26.1.2 → Szerkesztés**.
-2. A Játékkönyvtárhoz válassz egy külön mappát, például `C:\Users\SAJAT_WINDOWS_NEV\AppData\Roaming\.minecraft-fabric-26.1.2`. A Windows-nevet cseréld a sajátodra.
-3. Mentsd, indítsd el ezt a profilt egyszer, majd lépj ki.
-4. A kiválasztott mappában keresd meg a `mods` almappát; ha nincs, hozd létre.
+1. Nyisd meg a Launchert, DE MÉG NE INDÍTS EL SEMMIT!!!!
+2. **Telepítések → fabric-loader-0.20.1-26.1.2 → Itt menj a jobb oldali 3 pötyre! Szerkesztés/edit**. 
+3. Megjelenik az az elérési út, ahol neked a jelenlegi minecraft példány van telepítve, lehet hogy ömlesztve a sokféle verzió, ezért célszerű ennek a verziónak külön könyvtárat létrehozni. Ami jelenleg neked `\AppData\Roaming\.minecraft`-ra végződik, azt ekészítsd ki mondjuk erre: `C:\Users\WINDOWS\AppData\Roaming\.minecraft-fabric-26.1.2`. és SAVE! Elmenit ezt az elérési utat.
+4. Most a luncherben indítsd el `fabric-loader-0.20.1-26.1.2` verziót. A játék elindul és abba a mappába, amit kézzel megadtál letölti, ami neki kell.
+5. Miután a játék elindult a bal alsó sarokban ezt kell látnod: 26.1.2 (Modolt) - Ha ezt látod sirályság van!
+6. Lépj ki és keresd meg a fenti elérési úton a `fabric-loader-0.20.1-26.1.2\mods` mappát.
+7. Ha nincs `mods` mappát, hozd létre.
 
-## 4. Modok
+## 3. Modok
 
-1. Bezárt játék mellett másold a [modlista](MODOK.md) kliensre jelölt fájljait a fenti `mods` mappába.
-2. A `.jar` fájlokat **nem kell megnyitni vagy kicsomagolni**. Közvetlenül a `mods` mappába kerüljenek, ne egy újabb almappába.
-3. Egy modból egy verzió maradjon. Régi Forge-fájlokat ne másolj ide.
-4. A Fabric API is külön mod: a Fabric telepítő nem helyettesíti.
+„A telepítéshez a közös csomagot használd! A korábbi modjaidat hagyd a régi játékmappában!”
+Vagy letöltöd a `https:\\modrinth.com` oldalról a megfelelő modot, vagy az általam githubra feltöltött példányokat használod. Ezek működnek! Egyenlőre ne használj mást, juss be a szerverre és akkor bővíthetitek a mod-okat, csak egyeztessetek, mert néhánynak a szerver oldali párját is telepíteni kell. Ha az elején mindent is behajítasz a mods könyvtárva, nem fogod tudni mitől akad a játék.
 
-## 5. Belépés
+Amennyiben még is a letöltés mellett döntesz, a `https:\\modrinth.com` -on írd a keresőbe amire szükséged van! (Ne azt hogy Ferrari pls!) Pl: liblPN. Kartt rá és válaszd a version fület. Channel: Release, Game version: 26.1.2, Platform. fabric. Ha nem ezeket állítod be, rossz verzót kapsz. A listából minndig a legfrissebbet töltsd le. Soha se beta, vagy alfa verziót. azok nem stabilak. Letöltés után másold a mods mappába. lehetőleg ne 10-essével. max 2-3. Utána luncherben indítsd el a fabric-loader-0.20.1-26.1.2 -t. Így ha valami akad, könnyen kitalálod, melyik mods lehet a ludas. 
+Ha végképp nem boldogulsz küldj hibajelentés-ről képet Máténak. 
 
-Indítsd a **fabric-loader-0.20.1-26.1.2** profilt. **Többjátékos → Szerver hozzáadása**, majd add meg a szervezőtől kapott címet.
+## 4. Belépés
+
+Indítsd a **fabric-loader-0.20.1-26.1.2** profilt. **Többjátékos → Szerver hozzáadása**
 
 A külön játékmappának külön szerverlistája van. Ha itt üres a lista, vedd fel újra a címet: vasvari7b.falix.gg
 
 Whitelisthez a **Java Edition játékosnevedet** add meg, ne az Xbox-becenevedet. Jelszót senkinek sem kell küldened.
+
+A Whitelist azért kell, hogy ne tudjon minden jöttment csatlakozni a szerverhez, mert most mindenkit beenged, hogy azok széttrollkodjanak mindnet.
